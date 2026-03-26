@@ -16,9 +16,9 @@ Estrutura:
 
 ```
 src/
-├── components/    # Componentes React
-├── assets/       # Imagens e recursos
-├── App.jsx       # Componente principal
-├── App.css       # Estilos globais
-└── main.jsx      # Ponto de entrada
+├── components/  
+├── assets/      
+├── App.jsx       
+├── App.css      
+└── main.jsx      
 ```
