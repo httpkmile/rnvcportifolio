@@ -3,5 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/rnvcportifolio/'
+  base: '/rnvcportifolio/',
+  define: {
+    global: 'globalThis',
+  },
+  server: {
+    host: true
+  }
 })
